@@ -4,7 +4,10 @@
   "description": "An online shop microservice",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "npm run clean && npm run build && node ./dist/index.js",
+    "clean": "node ./node_modules/rimraf/bin.js dist",
+    "build": "node ./node_modules/typescript/bin/tsc"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,8 @@
   "homepage": "https://github.com/mycok/e-shop-microservice#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
     "config": "^3.2.4",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
