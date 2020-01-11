@@ -1,7 +1,7 @@
 {
-  "name": "e-shop-microservice",
+  "name": "products-catalog-microservice",
   "version": "1.0.0",
-  "description": "An online shop microservice",
+  "description": "microservice for handling product CRUD",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -17,7 +17,9 @@
     "typescript",
     "microservices",
     "node",
-    "express"
+    "express",
+    "mongo",
+    "mongoose"
   ],
   "author": "mycok",
   "license": "ISC",

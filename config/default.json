@@ -5,7 +5,7 @@
         "host": "products-service"
     },
     "mongo": {
-        "urlClient": "mongodb://127.0.0.1:27017/products"
+        "urlClient": "mongodb://mongo:27017/products"
     },
     "loglevel": "info"
 }
