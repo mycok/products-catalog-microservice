@@ -1,2 +1,2 @@
-# shopping-cart-microservice
-A shopping cart micro service written in typescript
+# Products-Catalog-Microservice
+A micro service that facilitates all CRUD functionality for the products resource written in typescript

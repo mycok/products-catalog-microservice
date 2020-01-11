@@ -8,7 +8,7 @@ import { CustomMiddleware } from '../../middleware/custom/index';
 import { Request, Response } from 'express';
 import { NotFoundError, BadRequestError } from '../../utils/CustomErrors';
 
-@JsonController('api/v1/products')
+@JsonController('/v1/products')
 @UseBefore(CustomMiddleware)
 export class ProductsController {
     private productDataAgent: ProductDataAgent;
