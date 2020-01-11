@@ -32,7 +32,8 @@ export class ExpressConfig {
         useContainer(Container);
         useExpressServer(this.app, {
             controllers: [controllersPath + '/*.js'],
-            cors: true
+            cors: true,
+            classTransformer: true,
         });
     }
 
@@ -42,4 +43,3 @@ export class ExpressConfig {
         }
     }
 }
-
